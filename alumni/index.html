@@ -82,4 +82,562 @@
         
     </div>
 </header>
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	   
+<style>
+
+  button.accordion{
+  cursor: pointer;
+  position:relative;
+  display:inline-block;
+  vertical-align:middle;
+  width:35%;
+  height:48px;
+  min-width:160px;
+  z-index:1;
+  padding: 0.5rem;
+  font-family:"stratum","Arial Narrow","Trebuchet MS",sans-serif;
+  font-size:1.5rem;
+  font-weight:700;
+  letter-spacing:3px;
+  text-transform:uppercase;
+  color:#fff;
+  text-align:center;
+  border-radius:4px;
+  overflow:hidden;
+  background:linear-gradient(to right, #E67207 0%, #EF4E7B 50%, #A166AB 100%);
+  transform:translate3d(0, 0, 0);
+  transition:all .4s ease-out 
+  margin-bottom: 2rem;
+  margin-top: 2rem; 
+  transition: 0.4s;
+}
+.accordion:before{
+  content:"";
+  width:calc(100% - 4px);
+  height:calc(100% - 4px);
+  background:#22292C;
+  position:absolute;
+  top:2px;
+  left:2px;
+  border-radius:2px;
+  z-index:-1
+}
+.accordion:after{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  display:block;
+  transition:all .4s ease-out;
+  background:linear-gradient(to right, #E67207 0%, #EF4E7B 5%, #A166AB 50%);
+  z-index:-3;
+  opacity:0
+}
+.accordion span{
+  position:absolute;
+  left:0;
+  bottom:7px;
+  display:block;
+  width:200%;
+  height:2px;
+  background:linear-gradient(to right, #E67207 10%, #EF4E7B 15%, #A166AB 50%);
+  z-index:-1;
+  transition:all 0.8s ease-out
+}
+.accordion:active,.accordion:focus,.accordion:hover{
+  cursor:pointer;
+  transform:translate3d(0, -3px, 0);
+  box-shadow:0px 8px 18px -3px rgba(161,102,171,0.3);
+  
+}
+.accordion:active span,.accordion:focus span,.accordion:hover span{
+  left:-10%
+}
+.accordion:active:after,.accordion:focus:after,.accordion:hover:after{
+  opacity:1
+}
+.panel{
+  background-color: rgba(255,255,255,0.3);
+  text-align: center!important;
+  color: white;
+  border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+  overflow: hidden;
+  opacity: 0;
+  max-height: 0;
+  transition: 0.3s;
+  margin: 0 auto;
+}
+.panel h3{
+  text-align: center;
+  padding: 0.5rem;
+}
+table {
+    table-layout: fixed;
+}
+div.panel.show{
+  opacity: 1;
+  padding: 1.5rem;
+  padding-bottom: 3rem;
+  max-height: 100%;
+  max-width:750px;
+  align-content: center;
+  text-align: center!important;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.row{
+  object-position: center;
+}
+.caption img{
+  transition: 0.6s;
+  text-shadow: 0.1rem 0.1rem 1rem black;
+}
+.nav-link{
+  transition: 0.5s;
+}
+div.table-title {
+   display: block;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+}
+
+.table-title h3 {
+   color: #fafafa;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   text-transform:uppercase;
+}
+img.editt{
+margin: 0 auto;
+height: 240px;
+width: 240px;
+border-radius: 10px;
+margin-top: 4.5rem;
+margin-bottom: 2rem;
+ box-shadow: 3px 3px 4.5px 5.5px black;
+}
+img.img-core{
+    margin: 0 auto;
+    height: 240px;
+    width: 240px;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    z-index: 1;
+    overflow: hidden;
+ box-shadow: 3px 3px 4.5px 5.5px black;
+}
+img.img-def{
+    margin-top: 2rem;
+}
+table.core-memb td,tr{
+    padding: 1rem;
+}
+table.core-memb{
+    margin: 0 auto;
+}
+</style>
+
+<script>var accordions=document.querySelectorAll("button.accordion");
+for(var i=0;i<accordions.length;i++)
+{
+accordions[i].onclick=function(){
+this.classList.toggle("active");
+this.nextElementSibling.classList.toggle("show");
+}
+}</script>
+
+<!--END MEMBER SECTION-->
+    <style>
+
+        @charset "UTF-8";
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+        body {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 300;
+          line-height: 1.42em;
+          color:#A7A1AE;
+          background-color:transparent;
+        }
+
+        h1a {
+          font-size:3em; 
+          font-weight: 300;
+          line-height:1em;
+          text-align: center;
+          color: #4DC3FA;
+        }
+
+        h2a {
+          font-size:1em; 
+          font-weight: 300;
+          text-align: center;
+          display: block;
+          line-height:1em;
+          padding-bottom: 2em;
+          color: #FB667A;
+        }
+
+        h2a a {
+          font-weight: 700;
+          text-transform: uppercase;
+          color: #FB667A;
+          text-decoration: none;
+        }
+
+        .blue { color: #185875; }
+        .yellow { color: #FFF842; }
+
+        .container th h1a {
+              font-weight: bold;
+              font-size: 1em;
+          text-align: left;
+          color: #185875;
+        }
+
+        .container-table td {
+              font-weight: normal;
+              font-size: 1em;
+          -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+               -moz-box-shadow: 0 2px 2px -2px #0E1119;
+                    box-shadow: 0 2px 2px -2px #0E1119;
+        }
+
+        .container-table {
+              text-align: center;
+              overflow: hidden;
+              width: 80%;
+              margin: 0 auto;
+          display: table;   
+          padding: 0 0 3.5em 0;
+          margin-top: 5.5rem;
+          table-layout: fixed;
+        }
+
+        .container-table td, .container-table th {
+              padding-bottom: 2%;
+              padding-top: 2%;
+          padding-left:2%; 
+            word-wrap: break-word; 
+        }
+
+        /* Background-color of the odd rows */
+        .container-table tr:nth-child(odd) {
+              background-color: #323C50;
+        }
+
+        /* Background-color of the even rows */
+        .container-table tr:nth-child(even) {
+              background-color: #2C3446;
+        }
+
+        .container-table th {
+              background-color: #1F2739;
+        }
+
+        .container-table td:first-child { color: #FB667A; }
+
+        .container-table tr:hover {
+           background-color: #464A52;
+        -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+               -moz-box-shadow: 0 6px 6px -6px #0E1119;
+                    box-shadow: 0 6px 6px -6px #0E1119;
+        }
+         .container-table .tab-heading td {
+              font-weight: bold;
+              font-size: 1.2em;
+          -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+               -moz-box-shadow: 0 2px 2px -2px #0E1119;
+                    box-shadow: 0 2px 2px -2px #0E1119;
+        }
+        .container-table td:hover {
+          background-color: #fff;
+          color: #403E10;
+          font-weight: bold;
+          
+          box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+          transform: translate3d(6px, -6px, 0);
+          
+          transition-delay: 0s;
+              transition-duration: 0.4s;
+              transition-property: all;
+          transition-timing-function: line;
+        } 
+        .memb{
+         margin-top: 3.5rem;
+          margin-bottom: 4.5rem;
+        }
+        @media (max-width: 800px) {
+        .container td:nth-child(4),
+        .container th:nth-child(4) { display: none; }
+        }
+            </style>
+    
+<div class="speaker-modals">
+    
+
+<article class="modal-wrap" id="speaker-modal">
+    <div class="modal">
+        <div class="modal__close">
+            <div>
+                <p class="sr-only">Close Modal</p>
+                <svg width="20" height="20"><use xlink:href="#shape-close"></use></svg>
+            </div>
+        </div>
+
+        <div class="modal__inner">
+        </div>
+    </div>
+    <span class="modal-screen"></span>
+</article>
+
+</div>
+
+
+        </main>
+
+         
+
+
+    <footer class="site-footer bg-universe" data-detect-viewport="" id="section-contact">
+
+        <div class="container-wide section">
+            <a class="footer-logo" href="index.html" data-animate-in="" title="go to the homepage">
+                <img src="assets/img/universe/footerlogo.svg" alt="" />
+            </a>
+
+            <div class="site-footer-inner">
+                <nav class="site-footer__nav">
+                    <ul>
+                       <li>
+                             <p class="h6">407, 3rd Floor, IDRC Block,</p>
+                        </li>
+                        <li>
+                             <p class="h6">R V College of Engineering</p>
+                        </li>
+                        <li>
+                             <p class="h6">Mysuru Road</p>
+                        </li>
+                        <li> 
+                             <p class="h6">Bengaluru - 560059, India.</p>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="site-footer__contact">
+                    <ul>
+                        <li>
+                            <p class="h6">FACEBOOK</p>
+                            <a href="https://www.facebook.com/teamantariksh" target="_blank" rel="nofollow noreferrer">teamantariksh <i class="fa fa-facebook-official fstyle" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <p class="h6">EMAIL</p>
+                            <a href="mailto:pmteam@teamantariksh.in">pmteam@teamantariksh.in <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <p class="h6">Phone</p>
+                            <a href="#">+91 99802 69730 <i class="fa fa-phone" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a class="icon-link icon-link--no-animation" href="TATesting/pdf/TABroch23.pdf" target="_blank">
+                                <span class="h3 text-gradient">Team Brochure</span>
+                                <span><svg width="16" height="16"><use xlink:href="#shape-download"></use></svg></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="site-footer__register">
+                    <!-- Begin MailChimp Signup Form -->
+                    <h4 class="h4">sign up for updates</h4>
+                    <div id="mc_embed_signup">
+                        <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate subscribe-form" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <div class="mc-field-group">
+                                    <label for="mce-EMAIL" class="d-none sr-only">Email Address</label>
+                                    <input type="email" value="" name="EMAIL" class="form-input required email" id="mce-EMAIL" aria-required="true"  placeholder="your email address">
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response pt-3 text-small" id="mce-error-response" style="display:none"></div>
+                                    <div class="response pt-3 text-small" id="mce-success-response" style="display:none"></div>
+                                </div>
+
+                                <div class="clear">
+                                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Add me!</button>
+                                </div>
+
+                            </div>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9d7ced8c4bbd6c2f238673f0f_2c583a58c9" tabindex="-1" value=""></div>
+                        </form>
+                    </div>
+                    <script type='text/javascript' src='../s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                    <!--End mc_embed_signup-->
+                </div>
+            </div>
+        </div>
+
+
+        <figure class="shooting-star">
+            <img src="assets/img/universe/shapes/shooting-star.svg" alt="shooting star" />
+        </figure>
+        <figure class="shooting-star-right">
+            <img src="assets/img/universe/shapes/shooting-star.svg" alt="shooting star" />
+        </figure>
+        <img data-detect-viewport="" class="site-footer-planet" src="assets/img/universe/shapes/logo.svg" alt="Saturn icon" />
+        <div class="site-footer-legal">
+            <div class="container-wide">
+                
+                <div align="center">
+                    <small>© 2021 Team Antariksh. All Rights Reserved.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <span class="screen"></span>
+    <div class="mobile-menu-trigger">
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+<!--CSS-->
+
+<style>
+        ::-webkit-scrollbar{
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track{
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.4);
+            background-color: rgba(255,255,255,1);
+            border-radius: 0.5px;
+        }
+        ::-webkit-scrollbar-thumb{
+            background-image: linear-gradient(#F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);
+            border-radius: 1px;
+             box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+             z-index: 1;
+        }
+        ::-webkit-scrollbar-track-piece{
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover{
+            background-image: linear-gradient(#F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);
+            border-radius: 1px;
+             box-shadow: inset 0 0 10px rgba(0,0,0,0.56);
+             z-index: 1;
+        }
+        ::-webkit-scrollbar-thumb:active{
+            background-image: linear-gradient(#F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);
+            border-radius: 1px;
+             box-shadow: inset 0 0 10px rgba(0,0,0,0.96);
+             z-index: 1;
+        }
+       
+</style>
+
+    <!--End CSS-->
+
+
+        <!-- JAVASCRIPT -->
+        <script src="assets/js/universe/jquery.js"></script>
+        <script src="assets/js/universe/main.js" async></script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-3769691-66', 'auto');
+          ga('send', 'pageview');
+       </script>
+	</body>
+</html>
 
