@@ -47,28 +47,16 @@ function getTimeRemaining(endtime) {
   };
 }
 
-function getTime() {
-  var t = new Date();
-  return {
-    'Total': t,
-    'Hours': t.getHours() % 12,
-    'Minutes': t.getMinutes(),
-    'Seconds': t.getSeconds()
-  };
-}
-
 function Clock(countdown,callback) {
   
-  countdown = countdown ? new Date(Date.parse(countdown)) : false;
+  countdown = new Date(Date.parse(countdown))
   callback = callback || function(){};
-  
-  var updateFn = countdown ? getTimeRemaining : getTime;
 
   this.el = document.createElement('div');
   this.el.className = 'flip-clock';
 
   var trackers = {},
-      t = updateFn(countdown),
+      t = getTimeRemaining(countdown),
       key, timeinterval;
 
   for ( key in t ){
@@ -84,7 +72,7 @@ function Clock(countdown,callback) {
     // throttle so it's not constantly updating the time.
     if ( i++ % 10 ) { return; }
     
-    var t = updateFn(countdown);
+    var t = getTimeRemaining(countdown);
     if ( t.Total < 0 ) {
       cancelAnimationFrame(timeinterval);
       for ( key in trackers ){
@@ -102,7 +90,7 @@ function Clock(countdown,callback) {
   setTimeout(updateClock,500);
 }
 
-var deadline = new Date(Date.parse(new Date()) + 12 * 24 * 60 * 60 * 1000);
+var deadline = "23 August 2023 09:30:00 GMT"
 var c = new Clock(deadline, function(){ alert('countdown complete') });
 document.getElementById("countdown").appendChild(c.el);
 
