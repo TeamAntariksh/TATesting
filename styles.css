@@ -157,6 +157,10 @@ width: 100%;
 
 @media only screen and (min-width: 768px) {
     .image-grid{
+      
         max-width: 70%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 }
