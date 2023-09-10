@@ -90,8 +90,8 @@ function CountdownTracker(label, value){
     setTimeout(updateClock,500);
   }
   
-  var deadline = "24 August 2023 00:00:00 GMT"
-  var c = new Clock(deadline, function(){ alert('countdown complete') });
-  document.getElementById("countdown").appendChild(c.el);
+  // var deadline = "24 August 2023 00:00:00 GMT"
+  // var c = new Clock(deadline, function(){ alert('countdown complete') });
+  // document.getElementById("countdown").appendChild(c.el);
   
   
