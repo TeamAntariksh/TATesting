@@ -90,7 +90,7 @@ function CountdownTracker(label, value){
     setTimeout(updateClock,500);
   }
   
-  var deadline = "16 December 2023 16:00:00"
+  var deadline = "16 December 2023 10:00:00"
   var c = new Clock(deadline, function(){ alert('countdown complete') });
   document.getElementById("countdown").appendChild(c.el);
   
