@@ -89,6 +89,28 @@ function CountdownTracker(label, value){
   
     setTimeout(updateClock,500);
   }
+
+function getBirthdayMessages(){
+  fetch("https://testidk.azurewebsites.net/messages").then((response)=>response.json())
+  .then((data)=>{
+    console.log(data);
+    htmlString = ""
+    for (let i=0; i<data.length; i++){
+      htmlString += "<p>"+data[i]+"</p>"
+    }
+    document.getElementById("birthdayMessages").innerHTML = htmlString
+  })
+}
+
+document.getElementById("birthdaySubmit").addEventListener("click", () =>{
+  let message = document.getElementById("birthdayInput").value
+  console.log(message)
+  fetch("https://testidk.azurewebsites.net/messages?message=" + message, {
+    method: "POST",
+  }).then(()=>{window.location.reload()})
+})
+
+getBirthdayMessages()
   
   // var deadline = "16 December 2023 16:00:00"
   // var c = new Clock(deadline, function(){ alert('countdown complete') });
