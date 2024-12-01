@@ -1,292 +1,362 @@
 
 <div class="panel-group">   
-    <button class="accordion">AIML<span></span></button>
+    <button class="accordion">AS<span></span></button>
     <div class="panel">
         <table class="container-table">
             <tbody class="table-hover">
                 <tr class="tab-heading">
                     <td>Name</td>        
                 </tr>
-                            <tr><td>Anamay Mittal</td></tr>
-            <tr><td>Ashwin Ajoy Dharmawaram</td></tr>
-            <tr><td>Ishan Shekhar Prasad</td></tr>
-            <tr><td>Kavya Jain</td></tr>
-            <tr><td>Prakash Ballupet</td></tr>
-            <tr><td>Shresta Namburi</td></tr>
+                            <tr><td>Pramod Varamballi</td></tr>
+            <tr><td>Chinmaya Hegde</td></tr>
+            <tr><td>Hansel Biju Mathew</td></tr>
+            <tr><td>Prathiksha G Poojary</td></tr>
+            <tr><td>I Hemanth</td></tr>
+            <tr><td>Omkar Naik</td></tr>
+            <tr><td>Pratiksha Gaddigimath</td></tr>
+            <tr><td>Lalitha. M</td></tr>
+            <tr><td>Prihvi Krishna </td></tr>
+            <tr><td>Sankalp Da</td></tr>
+            <tr><td>Mithun Sai K</td></tr>
+            <tr><td>Atharv Mahajan </td></tr>
+            <tr><td>Tanvee C M</td></tr>
+            <tr><td>Krit Paliwal </td></tr>
+            <tr><td>Yashas Goyal</td></tr>
+            <tr><td>Dhruv Bhandarkar</td></tr>
+            <tr><td>Shreyas J Deshmukh </td></tr>
+            <tr><td>Srikant S.R</td></tr>
+            <tr><td>Siba Azmiya</td></tr>
+            <tr><td>Aryan Shankar</td></tr>
+            <tr><td>Treya Moodithaya</td></tr>
+            <tr><td>Vedanth R Bhat</td></tr>
+            <tr><td>Chakshu M D</td></tr>
+            <tr><td>Disha Sonawane</td></tr>
+            <tr><td>Srinivasa.Jr</td></tr>
+            <tr><td>R Tushti</td></tr>
+            <tr><td>Mahathi</td></tr>
+            <tr><td>Sagar B</td></tr>
+            <tr><td>Ayush Dev</td></tr>
+            <tr><td>R. Vedith Sai</td></tr>
+            <tr><td>Hruthvik Ram M R </td></tr>
+            <tr><td>Ramya R</td></tr>
+            <tr><td>Aditi R Snehai</td></tr>
+            <tr><td>Simantak Sinha</td></tr>
+            <tr><td>Adnan Mushtaq</td></tr>
+            <tr><td>Advait Raju Dixit</td></tr>
+            <tr><td>Shanthosh K.V</td></tr>
 
             </tbody>
         </table>
     </div>
 
-    <button class="accordion">Aerospace<span></span></button>
+    <button class="accordion">BT<span></span></button>
     <div class="panel">
         <table class="container-table">
             <tbody class="table-hover">
                 <tr class="tab-heading">
                     <td>Name</td>        
                 </tr>
-                            <tr><td>Aditya Karthik</td></tr>
-            <tr><td>Ajith</td></tr>
-            <tr><td>Akula Uday Kiran</td></tr>
-            <tr><td>Amar Hachcholli</td></tr>
-            <tr><td>Ambarish</td></tr>
-            <tr><td>Amrutha Patary</td></tr>
-            <tr><td>Ananya Hebbar </td></tr>
-            <tr><td>Annie Evangeline K </td></tr>
-            <tr><td>Aryan Acharya</td></tr>
-            <tr><td>Bhuvan Agraj P</td></tr>
-            <tr><td>Darshan Arjun Ibrahimpur</td></tr>
-            <tr><td>Kiran V Airani</td></tr>
-            <tr><td>Manvith Rao A</td></tr>
-            <tr><td>Mehaboob Bashar</td></tr>
-            <tr><td>Misbah Mouminah</td></tr>
-            <tr><td>Mridula</td></tr>
-            <tr><td>Nidhi L </td></tr>
-            <tr><td>Nidhi Nagavi</td></tr>
-            <tr><td>Nikhil Prabhakar</td></tr>
-            <tr><td>Nikita M</td></tr>
-            <tr><td>Nitesh.S</td></tr>
-            <tr><td>Nova Sailalalithadevi </td></tr>
-            <tr><td>Om Patil</td></tr>
-            <tr><td>Prakash S</td></tr>
-            <tr><td>Pranathi S</td></tr>
-            <tr><td>Rodham Nikita Sharath</td></tr>
-            <tr><td>Rohit K</td></tr>
-            <tr><td>S Venkatesh Shenoy</td></tr>
-            <tr><td>Sanskar Verma</td></tr>
-            <tr><td>Sarthak Sharma</td></tr>
-            <tr><td>Sarvika Raju C</td></tr>
-            <tr><td>Shambhavi Shukla</td></tr>
-            <tr><td>Sharvari Abhighna</td></tr>
-            <tr><td>Sinchana N </td></tr>
-            <tr><td>Srujan S Kulkarni </td></tr>
-            <tr><td>Tejas H</td></tr>
+                            <tr><td>Arnav Nair</td></tr>
+            <tr><td>Monish </td></tr>
+            <tr><td>Shravani B</td></tr>
 
             </tbody>
         </table>
     </div>
 
-    <button class="accordion">Biotechnology<span></span></button>
+    <button class="accordion">CD<span></span></button>
     <div class="panel">
         <table class="container-table">
             <tbody class="table-hover">
                 <tr class="tab-heading">
                     <td>Name</td>        
                 </tr>
-                            <tr><td>Aarushi Das</td></tr>
-            <tr><td>Dhruthi</td></tr>
-            <tr><td>Hm Amrutha Sharma</td></tr>
-            <tr><td>Prajakta Patil</td></tr>
-            <tr><td>Vinayaka</td></tr>
+                            <tr><td>Harshith A</td></tr>
+            <tr><td>Aditya Sheinesh</td></tr>
 
             </tbody>
         </table>
     </div>
 
-    <button class="accordion">CSE<span></span></button>
+    <button class="accordion">CH<span></span></button>
     <div class="panel">
         <table class="container-table">
             <tbody class="table-hover">
                 <tr class="tab-heading">
                     <td>Name</td>        
                 </tr>
-                            <tr><td>Akshaya Keerthi G</td></tr>
-            <tr><td>Arpita</td></tr>
-            <tr><td>Bhavn Bhat</td></tr>
-            <tr><td>Kruthika N</td></tr>
-            <tr><td>Manasa Dn</td></tr>
-            <tr><td>Niranjan R N</td></tr>
-            <tr><td>Nithyasree Subramanian </td></tr>
-            <tr><td>R Akash Kumar</td></tr>
-            <tr><td>Rahul Rajesh Raikan</td></tr>
-            <tr><td>Sai Varunkonda</td></tr>
-            <tr><td>Shashanka Jois</td></tr>
-            <tr><td>Spandana M Raikar</td></tr>
-            <tr><td>Varun S </td></tr>
+                            <tr><td>Gaurav R Acharya</td></tr>
+            <tr><td>Hrishikesh R</td></tr>
+            <tr><td>Anubhav Sharma </td></tr>
+            <tr><td>Sumanth Shetty S</td></tr>
+            <tr><td>Benjamin Varghese Aluin </td></tr>
 
             </tbody>
         </table>
     </div>
 
-    <button class="accordion">Chemical<span></span></button>
+    <button class="accordion">CI<span></span></button>
     <div class="panel">
         <table class="container-table">
             <tbody class="table-hover">
                 <tr class="tab-heading">
                     <td>Name</td>        
                 </tr>
-                            <tr><td>Anubhav Sharma</td></tr>
-            <tr><td>Maisha Imran</td></tr>
+                            <tr><td>Shreyas</td></tr>
+            <tr><td>Saawan Vivek Krishnam</td></tr>
+            <tr><td>Aaditya</td></tr>
+            <tr><td>Samarth Sathvik</td></tr>
+            <tr><td>Vikas Yk</td></tr>
+            <tr><td>Sachit R S</td></tr>
+            <tr><td>Suhas Raghavendra </td></tr>
+            <tr><td>Sambhav Badaya</td></tr>
+            <tr><td>Aprameya Y</td></tr>
+            <tr><td>Abhinal Mallela</td></tr>
+            <tr><td>Krishna N Rao</td></tr>
+            <tr><td>Arya Wadhwa</td></tr>
 
             </tbody>
         </table>
     </div>
 
-    <button class="accordion">Civil<span></span></button>
+    <button class="accordion">CS<span></span></button>
     <div class="panel">
         <table class="container-table">
             <tbody class="table-hover">
                 <tr class="tab-heading">
                     <td>Name</td>        
                 </tr>
-                            <tr><td>Prajwal K Gowda</td></tr>
+                            <tr><td>Nidhi M Bhat</td></tr>
+            <tr><td>Siddharth R</td></tr>
+            <tr><td>Rohith Kumar.L</td></tr>
+            <tr><td>Anwesha</td></tr>
+            <tr><td>Mohak Natarajan </td></tr>
+            <tr><td>Priyansh Gupta</td></tr>
+            <tr><td>Ramakrishna V Bhat</td></tr>
+            <tr><td>Vignesh Hariharan</td></tr>
+            <tr><td>Shaan D</td></tr>
+            <tr><td>Ranjith Rd</td></tr>
+            <tr><td>Anushka Arvind Shukla</td></tr>
+            <tr><td>Bivin Bheemaiah N K</td></tr>
+            <tr><td>Adhya S Niranjan</td></tr>
+            <tr><td>Hemanth Kumar B</td></tr>
+            <tr><td>T.R Karthikey</td></tr>
+            <tr><td>Varun Urs</td></tr>
+            <tr><td>Advik Aggarwal</td></tr>
+            <tr><td>Nikhilesh</td></tr>
+            <tr><td>Naga Sathya</td></tr>
+            <tr><td>Parinitha Bs</td></tr>
+            <tr><td>Punith A M</td></tr>
+            <tr><td>Dhruv Singhal</td></tr>
+            <tr><td>Rahul. P</td></tr>
+            <tr><td>Shri Krishna Shenbhag</td></tr>
+            <tr><td>Suprith Gb</td></tr>
+            <tr><td>Lakshyavyay </td></tr>
+            <tr><td>Safal Hegde</td></tr>
+            <tr><td>Samarth Kulkarni</td></tr>
+            <tr><td>Mantradi Sushwati Rao</td></tr>
+            <tr><td>Chethan Suhas S</td></tr>
+            <tr><td>Abhishek Y S</td></tr>
+            <tr><td>Bruce Michael C</td></tr>
 
             </tbody>
         </table>
     </div>
 
-    <button class="accordion">ECE<span></span></button>
+    <button class="accordion">CY<span></span></button>
     <div class="panel">
         <table class="container-table">
             <tbody class="table-hover">
                 <tr class="tab-heading">
                     <td>Name</td>        
                 </tr>
-                            <tr><td>Adi Redkar</td></tr>
-            <tr><td>Aditya Anil Bharaduj</td></tr>
-            <tr><td>Ayush </td></tr>
-            <tr><td>Ch Phani Saran</td></tr>
-            <tr><td>Dhruva Vishwanth</td></tr>
-            <tr><td>H S Harsha</td></tr>
-            <tr><td>Joel Saha</td></tr>
-            <tr><td>Kasamur Paartheep</td></tr>
-            <tr><td>Madhumeeta Omprakash</td></tr>
-            <tr><td>Manasvi Bhat K</td></tr>
-            <tr><td>Naren Karthik K</td></tr>
-            <tr><td>Nikhil A E</td></tr>
-            <tr><td>Prajwal Jathanna</td></tr>
-            <tr><td>Pratham M Pimpalshinde</td></tr>
-            <tr><td>Shisir V </td></tr>
-            <tr><td>Shridattha M Hebbar</td></tr>
-            <tr><td>Sneha S Nayak</td></tr>
-            <tr><td>Sphatika S Jain</td></tr>
-            <tr><td>Sricharan S</td></tr>
-            <tr><td>Srinidhi Halaharvi </td></tr>
-            <tr><td>T Phaneeswar</td></tr>
-            <tr><td>Tandle Suhani</td></tr>
-            <tr><td>Titiksha K</td></tr>
-            <tr><td>Vaibhavi D</td></tr>
+                            <tr><td>Ayush Chandaka</td></tr>
+            <tr><td>Vianca Choudhary</td></tr>
 
             </tbody>
         </table>
     </div>
 
-    <button class="accordion">EEE<span></span></button>
+    <button class="accordion">EC<span></span></button>
     <div class="panel">
         <table class="container-table">
             <tbody class="table-hover">
                 <tr class="tab-heading">
                     <td>Name</td>        
                 </tr>
-                            <tr><td>Aditi Agarwal</td></tr>
-            <tr><td>Aditya Chacha</td></tr>
-            <tr><td>Aditya Chachan</td></tr>
-            <tr><td>Pavankumar B Pattar</td></tr>
-            <tr><td>Saneha Sharma</td></tr>
-            <tr><td>Varshini C B </td></tr>
+                            <tr><td>Shrihari R Kaval</td></tr>
+            <tr><td>Pramod Acharya </td></tr>
+            <tr><td>G.Tanushri Vaishnavi</td></tr>
+            <tr><td>Ashutosh Sinha </td></tr>
+            <tr><td>Aditya Kiran</td></tr>
+            <tr><td>K M Raghava</td></tr>
+            <tr><td>Adishesh Jayathirtha</td></tr>
+            <tr><td>Srikanth Ramisetti</td></tr>
+            <tr><td>Akash S</td></tr>
+            <tr><td>Abhinav Jena</td></tr>
+            <tr><td>Ayush M.S.</td></tr>
+            <tr><td>H.N. Khushi</td></tr>
+            <tr><td>Priyam Patel </td></tr>
+            <tr><td>Pranav R Kulkarni</td></tr>
+            <tr><td>Y Sanjana </td></tr>
+            <tr><td>Ramesh Chandra Jaiswal </td></tr>
+            <tr><td>Sb Karthik </td></tr>
+            <tr><td>Vrushanle Subramanya</td></tr>
+            <tr><td>Gowri K M</td></tr>
+            <tr><td>R Chithra</td></tr>
+            <tr><td>Yash. C . Kerure</td></tr>
+            <tr><td>P Geetha Madhav</td></tr>
+            <tr><td>Pritha S Revaviar</td></tr>
+            <tr><td>Chandana B C</td></tr>
+            <tr><td>Nesar C. P</td></tr>
+            <tr><td>Kashui Sharma</td></tr>
+            <tr><td>Samuel Werley Rasquinha</td></tr>
+            <tr><td>Nandana Nair</td></tr>
+            <tr><td>Dasi Venkata Pranitha</td></tr>
+            <tr><td>Anurag G Kharvi</td></tr>
+            <tr><td>D Kanish Chinvar</td></tr>
+            <tr><td>Manaswi K B</td></tr>
+            <tr><td>Vishwanath Madage </td></tr>
+            <tr><td>Dhriti Gij</td></tr>
+            <tr><td>Ashish H</td></tr>
+            <tr><td>Arush Jain</td></tr>
+            <tr><td>Pavana Reddy Vatte</td></tr>
+            <tr><td>Aarav S</td></tr>
+            <tr><td>Pranav Veeravalli</td></tr>
 
             </tbody>
         </table>
     </div>
 
-    <button class="accordion">EIE<span></span></button>
+    <button class="accordion">EE<span></span></button>
     <div class="panel">
         <table class="container-table">
             <tbody class="table-hover">
                 <tr class="tab-heading">
                     <td>Name</td>        
                 </tr>
-                            <tr><td>Krishna Purwar</td></tr>
-            <tr><td>Nishita Singhvi</td></tr>
-            <tr><td>Shamitha Ms</td></tr>
-            <tr><td>Siddhant Kashyap</td></tr>
+                            <tr><td>Aditya Krishna</td></tr>
+            <tr><td>Sedant Shaurya </td></tr>
+            <tr><td>Mohnish Pujari</td></tr>
+            <tr><td>Pranav Gadaginavar</td></tr>
 
             </tbody>
         </table>
     </div>
 
-    <button class="accordion">ETE<span></span></button>
+    <button class="accordion">EI<span></span></button>
     <div class="panel">
         <table class="container-table">
             <tbody class="table-hover">
                 <tr class="tab-heading">
                     <td>Name</td>        
                 </tr>
-                            <tr><td>Anwitha V</td></tr>
-            <tr><td>Anwitha Vishwanath</td></tr>
-            <tr><td>Deep Dyotak Dash</td></tr>
-            <tr><td>Rikseth</td></tr>
-            <tr><td>Rithwik </td></tr>
-            <tr><td>Shiven Singh</td></tr>
+                            <tr><td>Shravan Talapady</td></tr>
 
             </tbody>
         </table>
     </div>
 
-    <button class="accordion">IEM<span></span></button>
+    <button class="accordion">GC<span></span></button>
     <div class="panel">
         <table class="container-table">
             <tbody class="table-hover">
                 <tr class="tab-heading">
                     <td>Name</td>        
                 </tr>
-                            <tr><td>Mohammed Iqbal </td></tr>
-            <tr><td>Shree Maheshwari</td></tr>
-            <tr><td>Shriya Raug Pai</td></tr>
-            <tr><td>Yuv Khatri</td></tr>
+                            <tr><td>Maitreya Mahesh Medhekar</td></tr>
 
             </tbody>
         </table>
     </div>
 
-    <button class="accordion">ISE<span></span></button>
+    <button class="accordion">IM<span></span></button>
     <div class="panel">
         <table class="container-table">
             <tbody class="table-hover">
                 <tr class="tab-heading">
                     <td>Name</td>        
                 </tr>
-                            <tr><td>Atharva Agarwal</td></tr>
-            <tr><td>Daksh Desai </td></tr>
-            <tr><td>Pranshu Joshi</td></tr>
-            <tr><td>Shankar Patel Ku</td></tr>
-            <tr><td>Smruthi S Kadagadkai</td></tr>
+                            <tr><td>Atharva Somani</td></tr>
 
             </tbody>
         </table>
     </div>
 
-    <button class="accordion">Mechanical<span></span></button>
+    <button class="accordion">IS<span></span></button>
     <div class="panel">
         <table class="container-table">
             <tbody class="table-hover">
                 <tr class="tab-heading">
                     <td>Name</td>        
                 </tr>
-                            <tr><td>Aanika Pandey</td></tr>
-            <tr><td>Aarush Jaiswal</td></tr>
-            <tr><td>Abhinav Kumar</td></tr>
-            <tr><td>Aditya Vijayan</td></tr>
-            <tr><td>Amogh P Giri</td></tr>
-            <tr><td>Archit S K</td></tr>
-            <tr><td>Bhuvan S.U</td></tr>
-            <tr><td>Divyam Chhetri</td></tr>
-            <tr><td>G.K. Aditya</td></tr>
-            <tr><td>Lok Ranjan Pn</td></tr>
-            <tr><td>Madhura Rao K.S</td></tr>
-            <tr><td>Namratha E</td></tr>
-            <tr><td>Nikhil N Kashyap</td></tr>
-            <tr><td>Omkar Das</td></tr>
-            <tr><td>Prasanna J Naik</td></tr>
-            <tr><td>Preetham P</td></tr>
-            <tr><td>Rohan S</td></tr>
-            <tr><td>Santosh R</td></tr>
-            <tr><td>Sathvik</td></tr>
-            <tr><td>Siddant Shah</td></tr>
-            <tr><td>Smriti J Abraham</td></tr>
-            <tr><td>Subhradeep Mondal</td></tr>
-            <tr><td>Vinith Prabhu</td></tr>
-            <tr><td>Yadhunandan Hegde</td></tr>
+                            <tr><td>Manyashree S</td></tr>
+            <tr><td>Nishanth Prabhu P</td></tr>
+            <tr><td>Venika Gupta</td></tr>
+            <tr><td>Kiran Sk</td></tr>
+            <tr><td>Kartikey Sharma </td></tr>
+            <tr><td>Eshita Sahu</td></tr>
+            <tr><td>Ibrahim Kasheef</td></tr>
+            <tr><td>Sanika Kalamkar</td></tr>
+            <tr><td>V Suraj</td></tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <button class="accordion">ME<span></span></button>
+    <div class="panel">
+        <table class="container-table">
+            <tbody class="table-hover">
+                <tr class="tab-heading">
+                    <td>Name</td>        
+                </tr>
+                            <tr><td>Vinay Krishna B V</td></tr>
+            <tr><td>Manya Bansal</td></tr>
+            <tr><td>Tanay Paratkar</td></tr>
+            <tr><td>Gd Pranav L</td></tr>
+            <tr><td>Pranav Ravimanivasagam</td></tr>
+            <tr><td>Manish Bhajkar</td></tr>
+            <tr><td>Atharva Kulkarni </td></tr>
+            <tr><td>Kishore K V</td></tr>
+            <tr><td>Vishal </td></tr>
+            <tr><td>Pallav K</td></tr>
+            <tr><td>Skanda Seethraman B</td></tr>
+            <tr><td>Vaibhav Sridhar</td></tr>
+            <tr><td>Tushear L Ganapa</td></tr>
+            <tr><td>Gaurav Kumar</td></tr>
+            <tr><td>Lalith Karthikeyan Mp</td></tr>
+            <tr><td>Nihit Baheriya</td></tr>
+            <tr><td>Veeral Jain</td></tr>
+            <tr><td>Rishi Khan</td></tr>
+            <tr><td>Srishti Samadhan Jahagirdar</td></tr>
+            <tr><td>Niharika</td></tr>
+            <tr><td>Shrish Maheshwari</td></tr>
+            <tr><td>Kiran V</td></tr>
+            <tr><td>Harshini K Balaji</td></tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <button class="accordion">TE<span></span></button>
+    <div class="panel">
+        <table class="container-table">
+            <tbody class="table-hover">
+                <tr class="tab-heading">
+                    <td>Name</td>        
+                </tr>
+                            <tr><td>Hardik K Naidu</td></tr>
+            <tr><td>Aryan Kumar</td></tr>
+            <tr><td>Shamit Sinha </td></tr>
+            <tr><td>Pranati Rao</td></tr>
+            <tr><td>Adithya Sarthimani</td></tr>
+            <tr><td>Prajwal Dk </td></tr>
+            <tr><td>Aditya Narayan Tiwayi </td></tr>
+            <tr><td>Arkodev U</td></tr>
+            <tr><td>Swapnil Karmakar</td></tr>
+            <tr><td>Yashaswi S Neelagwal</td></tr>
+            <tr><td>Pradhumna D Gupta</td></tr>
 
             </tbody>
         </table>
