@@ -1,3 +1,140 @@
+.seven-segment-clock {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 70px;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+}
+
+.seven-segment__piece {
+    text-align: center;
+}
+
+.seven-segment__display {
+    position: relative;
+    width: 40px; /* Default width */
+    height: 70px; /* Default height */
+    margin-left: 5px;
+    background: #22292C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segment {
+    position: absolute;
+    background: #222;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.segment.active {
+    background: #ff0000;
+}
+
+.segment.a {
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 10%;
+}
+
+.segment.b {
+    top: 10%;
+    right: 0;
+    width: 10%;
+    height: 40%;
+}
+
+.segment.c {
+    bottom: 10%;
+    right: 0;
+    width: 10%;
+    height: 40%;
+}
+
+.segment.d {
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 10%;
+}
+
+.segment.e {
+    bottom: 10%;
+    left: 0;
+    width: 10%;
+    height: 40%;
+}
+
+.segment.f {
+    top: 10%;
+    left: 0;
+    width: 10%;
+    height: 40%;
+}
+
+.segment.g {
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    height: 10%;
+    transform: translateY(-50%);
+}
+
+.seven-segment__colon {
+    position: relative;
+    top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px; /* Default font size */
+    color: #ff0000;
+    margin: 0 5px; /* Adds spacing between the digits */
+}
+
+.display_group {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) { /* Tablets and smaller screens */
+    .seven-segment__display {
+        width: 30px;
+        height: 55px;
+    }
+
+    .seven-segment__colon {
+        font-size: 40px;
+        top: -10px;
+    }
+
+    .seven-segment-clock {
+        gap: 15px; /* Reduce gap */
+        top: 50px; /* Adjust positioning */
+    }
+}
+
+@media (max-width: 480px) { /* Mobile devices */
+    .seven-segment__display {
+        width: 25px;
+        height: 45px;
+    }
+
+    .seven-segment__colon {
+        font-size: 30px;
+        top: -8px;
+    }
+
+    .seven-segment-clock {
+        gap: 10px;
+        top: 30px;
+        flex-direction: column; /* Stack digits vertically if necessary */
+    }
+}
+
 
 @font-face{
 	font-family:'nunito_sans';
