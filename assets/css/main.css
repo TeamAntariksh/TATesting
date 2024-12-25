@@ -2,9 +2,8 @@
     display: flex;
     gap: 20px;
     position: relative;
-    top: 70px;
     justify-content: center;
-    flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .seven-segment__piece {
@@ -13,8 +12,8 @@
 
 .seven-segment__display {
     position: relative;
-    width: 40px; /* Default width */
-    height: 70px; /* Default height */
+    width: 40px; 
+    height: 70px; 
     margin-left: 5px;
     background: #22292C;
     display: flex;
@@ -89,9 +88,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px; /* Default font size */
+    font-size: 50px;
     color: #ff0000;
-    margin: 0 5px; /* Adds spacing between the digits */
+    margin: 0 5px; 
 }
 
 .display_group {
@@ -99,8 +98,8 @@
     padding-bottom: 15px;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) { /* Tablets and smaller screens */
+
+@media (max-width: 768px) { 
     .seven-segment__display {
         width: 30px;
         height: 55px;
@@ -112,27 +111,32 @@
     }
 
     .seven-segment-clock {
-        gap: 15px; /* Reduce gap */
-        top: 50px; /* Adjust positioning */
+        gap: 15px; 
+        top: 50px; 
     }
 }
 
-@media (max-width: 480px) { /* Mobile devices */
+@media (max-width: 480px) { 
     .seven-segment__display {
-        width: 25px;
-        height: 45px;
+        width: 10px;
+        height: 20px;
+		flex-direction: row;
     }
 
     .seven-segment__colon {
         font-size: 30px;
-        top: -8px;
+        top: -20px;
+		margin: 0 0px;
     }
 
     .seven-segment-clock {
         gap: 10px;
         top: 30px;
-        flex-direction: column; /* Stack digits vertically if necessary */
+        flex-direction: row;
     }
+	.display_group, .seven-segment__colon, .seven-segment__piece{
+		width: 30px;
+	}
 }
 
 
