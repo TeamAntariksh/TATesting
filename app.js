@@ -84,7 +84,6 @@ function Clock(countdown, callback) {
       key,
       timeinterval;
 
-  // Counter for added colons
   let isFirst = true;
 
   for (key in t) {
@@ -93,7 +92,6 @@ function Clock(countdown, callback) {
       }
 
       if (!isFirst) {
-          // Add a colon between the segments
           var colon = document.createElement('div');
           colon.className = 'seven-segment__colon';
           colon.innerHTML = ':';

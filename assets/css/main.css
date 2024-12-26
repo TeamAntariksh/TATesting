@@ -24,7 +24,7 @@
 
 .segment {
     position: absolute;
-    background: #222;
+    background: #333;
     border-radius: 4px;
     transition: background 0.3s ease;
 }
