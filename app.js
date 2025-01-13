@@ -127,6 +127,5 @@ function Clock(countdown, callback) {
 
 var deadline = "30 December 2024 21:58:00";
 var c = new Clock(deadline, function () {
-  alert('Countdown complete');
 });
 document.getElementById("countdownRVSAT").appendChild(c.el);
