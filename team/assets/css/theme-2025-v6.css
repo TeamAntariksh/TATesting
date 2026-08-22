@@ -1,0 +1,193 @@
+:root {}
+/* Override the background */
+html, body, .bg-image--fallback, .page-header, .gradient, .page, #page-speakers, .main, .page-content, .site-wrapper, .universe {
+    background: #22292c !important;
+    background-image: none !important;
+    background-color: #22292c !important;
+}
+
+/* Hide old space elements */
+.stars, .stars-lg, .shooting-star, .shooting-star-right {
+    display: none !important;
+}
+
+/* Typography for headers */
+.page-header .h2 {
+    font-family: "Playfair Display", "Times New Roman", serif !important;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 0;
+    margin: 40px auto;
+    text-align: center;
+    color: #fff !important;
+    background: transparent !important;
+}
+
+/* Images */
+.speaker-preview__image {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: transparent !important;
+}
+
+.speaker-preview__image img {
+    filter: none !important;
+}
+
+.speaker-preview__image:after {
+    display: none !important;
+}
+
+/* Typography for Names and Roles */
+.speaker-name {
+    font-family: "Playfair Display", "Times New Roman", serif !important;
+    font-weight: 400 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+.speaker-position {
+    font-family: "Playfair Display", "Times New Roman", serif !important;
+    font-style: normal;
+    color: #ccc !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Crosshair aesthetic for the grid */
+.speaker-preview {
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    padding: 20px;
+    background: #000;
+    margin-bottom: 30px;
+}
+
+/* Small crosshairs at corners */
+.speaker-preview::before,
+.speaker-preview::after {
+    content: "+";
+    position: absolute;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+    line-height: 1;
+}
+
+.speaker-preview::before {
+    top: -11px;
+    left: -7px;
+}
+
+.speaker-preview::after {
+    bottom: -11px;
+    right: -7px;
+}
+
+/* =========================================================
+   CUSTOM TEAM GRID (2025-26 Theme)
+   ========================================================= */
+
+.custom-team-main {
+    background: #22292c !important;
+    color: #fff !important;
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+
+.team-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-section {
+    margin-bottom: 80px;
+}
+
+.team-section-title {
+    font-family: "Playfair Display", "Times New Roman", serif !important;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 0;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    color: #fff !important;
+    max-width: 800px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+    justify-content: center;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: transparent;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+
+/* Crosshairs for the new cards */
+.team-card::before, .team-card::after {
+    content: "+";
+    position: absolute;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+    line-height: 1;
+}
+.team-card::before { top: -11px; left: -7px; }
+.team-card::after { bottom: -11px; right: -7px; }
+
+.team-photo {
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    filter: grayscale(100%) contrast(1.2);
+    transition: filter 0.3s ease;
+}
+
+.team-card:hover .team-photo {
+    filter: grayscale(0%) contrast(1.1);
+}
+
+.team-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.team-name {
+    font-family: "Playfair Display", "Times New Roman", serif !important;
+    font-weight: 400 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase;
+    color: #fff !important;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.team-role {
+    font-family: "Playfair Display", "Times New Roman", serif !important;
+    font-style: normal;
+    color: #ccc !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 0.8rem;
+}
